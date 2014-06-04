@@ -3,11 +3,10 @@ import site
 site.addsitedir(os.path.dirname(__file__),'packages')
 
 from flask import Flask
-app = Flask(__name__)
-app.DEBUG=True
+application = Flask(__name__)
+application.DEBUG=True
+application.run()
 @app.route("/")
 def hello():
     return "Hello yuc!"
 
-if __name__ == "__main__":
-    app.run()
