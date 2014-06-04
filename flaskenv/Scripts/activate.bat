@@ -1,5 +1,5 @@
 @echo off
-set "VIRTUAL_ENV=E:\mopassproject\pythonfun\flaskenv"
+set "VIRTUAL_ENV=E:\github\pythonfun\flaskenv"
 
 if defined _OLD_VIRTUAL_PROMPT (
     set "PROMPT=%_OLD_VIRTUAL_PROMPT%"
